@@ -1,0 +1,14 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "tDownloader"
+version = "0.1.0"
+description = "Your project description"
+authors = ["Ya"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tinkoff = "^0.1"
+tinkoff-investments = "^0.2"
